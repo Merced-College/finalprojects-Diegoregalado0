@@ -1,0 +1,99 @@
+Hybrid Max 3,Hybrid,Wilson,21.5,39.8
+Putter Blade 2,Putter,Odyssey,3.0,34.5
+Fairway Fire 7,Fairway Wood,Cobra,22.0,41.5
+Iron Master 4,Iron,Mizuno,24.0,38.2
+Wedge Gap Pro,Wedge,Titleist,50.0,35.1
+Driver Pro Tour,Driver,Callaway,9.5,45.0
+Putter Spider X,Putter,TaylorMade,3.0,34.8
+Wedge Sand King,Wedge,Ping,56.0,34.9
+Iron Power 8,Iron,Wilson,38.0,36.1
+Hybrid Apex 2,Hybrid,Callaway,17.0,40.5
+Fairway Fire 5,Fairway Wood,Cleveland,18.0,42.2
+Iron Pro 6,Iron,Ping,30.0,37.2
+Driver Turbo X,Driver,TaylorMade,10.5,44.5
+Iron Elite 3,Iron,Titleist,21.0,38.4
+Wedge Lob Attack,Wedge,Mizuno,60.0,34.6
+Hybrid Riptide 4,Hybrid,Cobra,23.0,39.3
+Iron Classic 9,Iron,Cleveland,42.0,35.3
+Driver Elite S,Driver,Wilson,8.5,45.1
+Fairway Thunder 3,Fairway Wood,Callaway,15.0,43.1
+Putter Blade 1,Putter,Scotty Cameron,2.5,35.0
+Hybrid Max 5,Hybrid,TaylorMade,26.0,38.8
+Iron Soft 5,Iron,Cobra,27.5,37.4
+Driver Phantom Z,Driver,Titleist,11.0,44.7
+Iron Strike 7,Iron,Wilson,34.0,36.6
+Wedge Pitch Attack,Wedge,Cleveland,46.0,35.0
+Fairway Elite 7,Fairway Wood,Titleist,21.0,41.8
+Putter Balance Pro,Putter,Odyssey,4.0,35.5
+Hybrid Control 3,Hybrid,Ping,19.5,40.2
+Iron Pure 6,Iron,Mizuno,30.0,37.3
+Driver Launch Max,Driver,Cobra,9.0,45.0
+Wedge Tour Grind,Wedge,TaylorMade,54.0,34.8
+Iron Pro 4,Iron,Titleist,24.0,38.1
+Fairway Rocket 5,Fairway Wood,TaylorMade,17.5,42.0
+Hybrid Tour 2,Hybrid,Callaway,18.0,40.8
+Iron Stealth 2,Iron,TaylorMade,18.0,39.0
+Wedge Lob X,Wedge,Callaway,59.0,34.5
+Putter Pro Classic,Putter,Wilson,3.5,35.2
+Driver Velo Speed,Driver,Ping,10.0,44.9
+Iron Strike 8,Iron,Cobra,38.5,36.0
+Fairway Thunder 5,Fairway Wood,Mizuno,18.5,41.9
+Hybrid Xtreme 3,Hybrid,Cleveland,20.5,40.0
+Wedge Gap Tour,Wedge,Odyssey,50.0,35.2
+Iron Control 7,Iron,Cleveland,35.0,36.5
+Putter Gold Line,Putter,Titleist,2.0,35.0
+Driver Wild Fire,Driver,Mizuno,9.0,45.2
+Fairway Storm 3,Fairway Wood,Wilson,15.0,43.0
+Hybrid Storm 4,Hybrid,Titleist,22.5,39.4
+Iron Velo 9,Iron,Ping,40.0,35.6
+Wedge Pitch Pro,Wedge,Wilson,46.5,35.1
+Putter Blade Milled,Putter,Cleveland,3.0,34.9
+Iron Soft 4,Iron,Wilson,23.5,38.3
+Fairway Fire X,Fairway Wood,Cobra,16.0,42.5
+Driver Xtreme Tour,Driver,Titleist,11.0,44.4
+Wedge Sand Zone,Wedge,Cobra,55.5,34.7
+Hybrid Stealth 5,Hybrid,TaylorMade,26.0,38.9
+Iron Elite 5,Iron,Callaway,27.0,37.3
+Putter Steady Roll,Putter,Mizuno,4.5,35.3
+Fairway Pro 5,Fairway Wood,Ping,18.0,42.1
+Iron Control 6,Iron,Callaway,31.0,37.0
+Wedge Lob Glide,Wedge,Ping,60.0,34.6
+Driver Blade Edge,Driver,Cleveland,8.0,45.0
+Hybrid Flash 3,Hybrid,Titleist,20.0,40.0
+Iron Power 6,Iron,Odyssey,30.5,37.2
+Wedge Sand Pro,Wedge,Titleist,56.0,34.8
+Fairway Blast 7,Fairway Wood,Cobra,22.0,41.7
+Putter Tour Feel,Putter,Callaway,2.8,34.8
+Driver Nitro Z,Driver,Wilson,10.0,44.8
+Iron Pure 8,Iron,Mizuno,38.0,36.2
+Wedge Gap Smart,Wedge,Cleveland,49.0,35.0
+Hybrid Apex 4,Hybrid,Cobra,23.5,39.2
+Fairway Thunder X,Fairway Wood,TaylorMade,16.5,42.3
+Iron Strike Pro 5,Iron,Ping,28.0,37.5
+Driver Hyper Drive,Driver,Odyssey,11.5,45.0
+Wedge Tour Spin,Wedge,TaylorMade,52.0,35.0
+Hybrid Control Max,Hybrid,Callaway,21.0,39.6
+Putter Master Stroke,Putter,Scotty Cameron,3.2,35.0
+Fairway Pro 3,Fairway Wood,Mizuno,14.5,43.2
+Iron Velocity 7,Iron,Cobra,33.0,36.6
+Driver Turbo Max,Driver,Titleist,9.5,45.1
+Wedge Lob Flash,Wedge,Mizuno,60.0,34.5
+Hybrid Tour Strike,Hybrid,Wilson,24.0,39.0
+Iron Velo 4,Iron,Titleist,20.5,38.6
+Putter Straight Shot,Putter,Cobra,2.0,35.0
+Fairway Rocket Blast,Fairway Wood,Cleveland,16.0,42.8
+Driver Stealth Fire,Driver,Ping,10.0,44.6
+Wedge Gap Slice,Wedge,Odyssey,48.0,35.2
+Iron Apex 9,Iron,TaylorMade,40.0,35.7
+Hybrid Power Pro 5,Hybrid,Cobra,25.5,38.8
+Fairway Fire Max,Fairway Wood,TaylorMade,19.0,42.0
+Putter Tour Balance,Putter,Titleist,4.0,34.9
+Driver Lightning S,Driver,Wilson,9.0,45.0
+Iron Elite Tour 6,Iron,Cleveland,30.5,37.1
+Wedge Sand Slice,Wedge,Cleveland,55.0,34.7
+Hybrid Strike X 3,Hybrid,Callaway,21.0,39.9
+Iron Pure Strike 8,Iron,Mizuno,37.5,36.3
+Fairway Thunder Strike,Fairway Wood,Titleist,17.0,42.5
+Putter Soft Touch,Putter,Odyssey,3.0,35.0
+Driver Black Shadow,Driver,Cobra,8.5,45.0
+Wedge Lob Tour,Wedge,Wilson,60.0,34.4

@@ -43,4 +43,18 @@ public void addClub(Scanner scanner) {
 public ArrayList<GolfClub> getClubs() {
         return clubs;
     }
+
+    public void addClub(GolfClub club) {
+    clubs.add(club);
+}
+
+public boolean deleteClubByName(String name) {
+    for (int i = 0; i < clubs.size(); i++) {
+        if (clubs.get(i).name().equalsIgnoreCase(name)) {
+            clubs.remove(i);
+            return true; 
+        }
+    }
+    return false; 
+}
 }

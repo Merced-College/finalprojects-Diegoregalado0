@@ -1,12 +1,16 @@
-//imports 
-
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        GolfBagManager manager = new GolfBagManager();
+         GolfBagManager manager = new GolfBagManager();
         UsageTracker tracker = new UsageTracker();
         Scanner scanner = new Scanner(System.in);
+
+        ArrayList<GolfClub> warehouseClubs = ClubWarehouseLoader.loadFromFile("clubwarehouse.txt");
+for (GolfClub club : warehouseClubs) {
+    manager.addClub(club);
+}
 
         while (true) {
             System.out.println("\n=== Golf Club Organizer ===");
@@ -15,10 +19,11 @@ public class Main {
             System.out.println("3. Sort Clubs by Loft");
             System.out.println("4. Use Club");
             System.out.println("5. View Most Used Clubs");
+            System.out.println("6. Search for Club (Recursive)");
+            System.out.println("7. Delete a Club");
             System.out.println("0. Exit");
-            System.out.print("Choice: ");
-            int choice = scanner.nextInt();
-            scanner.nextLine(); 
+
+            int choice = readInt(scanner, "Choice: ");
 
             switch (choice) {
                 case 1 -> manager.addClub(scanner);
@@ -30,11 +35,51 @@ public class Main {
                     tracker.useClub(name);
                 }
                 case 5 -> tracker.printMostUsed();
+                case 6 -> {
+    System.out.print("Enter club name to search: ");
+    String searchName = scanner.nextLine();
+    GolfClub found = Utils.recursiveFind(manager.getClubs(), searchName, 0);
+    if (found != null) {
+        System.out.println("Found: " + found);
+    } else {
+        System.out.println("Club not found.");
+    }
+}
                 case 0 -> {
                     System.out.println("Exiting...");
                     return;
                 }
                 default -> System.out.println("Invalid choice.");
+            }
+        }
+    }
+
+    
+    public static int readInt(Scanner scanner, String prompt) {
+        while (true) {
+            System.out.print(prompt);
+            if (scanner.hasNextInt()) {
+                int value = scanner.nextInt();
+                scanner.nextLine(); 
+                return value;
+            } else {
+                System.out.println("Invalid input. Please enter a number.");
+                scanner.nextLine(); 
+            }
+        }
+    }
+
+
+    public static double readDouble(Scanner scanner, String prompt) {
+        while (true) {
+            System.out.print(prompt);
+            if (scanner.hasNextDouble()) {
+                double value = scanner.nextDouble();
+                scanner.nextLine(); 
+                return value;
+            } else {
+                System.out.println("Invalid input. Please enter a decimal number.");
+                scanner.nextLine(); 
             }
         }
     }
