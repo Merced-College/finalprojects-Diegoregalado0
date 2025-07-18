@@ -3,24 +3,18 @@ July 18th, 2025
 CPSC-39
 Final Programming Project
 
-"Golf Club Organizer and Tracker"
+"Golf Club Manager"
 
-Data structures and algorithms used:
+The Golf Club Organizer is a terminal based Java program that allows users to manage a virtual set of golf clubs. It loads clubs from a file, allows user input to add, view, search, delete, and sort clubs, and tracks usage statistics. It is useful for keeping an organized virtual “warehouse” of golf clubs and simulating a golf bag manager.
 
-Array to store the main list of clubs
-LinkedList to track recent clubs used in a round
-Stack to simulate packing/unpacking golf bag
-Queue to track clubs in order of usage for rotation
-HashMap to index clubs by brand/type for fast access
-Record to define a GolfClub record with fields like type, brand, loft...
-String for user input, club descriptions...
+Recursive Search
+	•	Searches the list of clubs by name recursively.
+	•	Starts at index 0 and checks each club one by one.
+	•	Returns the matching club or null if not found.
 
-Main class
-GolfClub class or record
-GolfBagManager class 
-UsageTracker class 
-DataStore class (for mock persistent storage, arrays/lists)
+    Sort by Loft
+	•	Uses Comparator.comparingDouble() to sort clubs by loft.
 
-Recursive search to find club by loft (binary-like recursive search in sorted array)
-Custom sort by brand or loft using selection or bubble sort
-
+    Usage Leaderboard
+	•	Uses a HashMap to count uses.
+	•	Sorts the map by value (descending) to show most-used clubs.
