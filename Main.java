@@ -44,6 +44,16 @@ for (GolfClub club : warehouseClubs) {
     } else {
         System.out.println("Club not found.");
     }
+    case 7 -> {
+    System.out.print("Enter name of club to delete: ");
+    String name = scanner.nextLine();
+    boolean deleted = manager.deleteClubByName(name);
+    if (deleted) {
+        System.out.println("Club deleted: " + name);
+    } else {
+        System.out.println("Club not found.");
+    }
+}
 }
                 case 0 -> {
                     System.out.println("Exiting...");
