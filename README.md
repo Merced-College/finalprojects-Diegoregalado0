@@ -15,10 +15,10 @@ HashMap to index clubs by brand/type for fast access
 Record to define a GolfClub record with fields like type, brand, loft...
 String for user input, club descriptions...
 
-Main class (runs CLI loop)
+Main class
 GolfClub class or record
-GolfBagManager class (logic layer)
-UsageTracker class (for usage stats)
+GolfBagManager class 
+UsageTracker class 
 DataStore class (for mock persistent storage, arrays/lists)
 
 Recursive search to find club by loft (binary-like recursive search in sorted array)
