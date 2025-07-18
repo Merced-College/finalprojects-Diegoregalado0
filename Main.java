@@ -18,7 +18,7 @@ public class Main {
             System.out.println("0. Exit");
             System.out.print("Choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1 -> manager.addClub(scanner);
