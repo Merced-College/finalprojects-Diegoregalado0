@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class GolfBagManager {
     private final ArrayList<GolfClub> clubs = new ArrayList<>();
@@ -35,10 +37,21 @@ public void addClub(Scanner scanner) {
         }
     }
 
-    public void sortByLoft() {
-        clubs.sort(Comparator.comparingDouble(GolfClub::loft));
-        System.out.println("Clubs sorted by loft.");
+
+public void sortByLoft() {
+    clubs.sort(Comparator.comparingDouble(GolfClub::loft));
+    System.out.println("Clubs sorted by loft.");
+
+    try (FileWriter writer = new FileWriter("sorted_warehouse.txt")) {
+        for (GolfClub club : clubs) {
+            writer.write(String.format("%s,%s,%s,%.1f,%.2f%n",
+                club.name(), club.type(), club.brand(), club.loft(), club.length()));
+        }
+        System.out.println("Sorted clubs written to sorted_warehouse.txt");
+    } catch (IOException e) {
+        System.out.println("Error writing to file: " + e.getMessage());
     }
+}
 
 public ArrayList<GolfClub> getClubs() {
         return clubs;

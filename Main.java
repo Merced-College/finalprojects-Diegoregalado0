@@ -3,14 +3,14 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-         GolfBagManager manager = new GolfBagManager();
+        GolfBagManager manager = new GolfBagManager();
         UsageTracker tracker = new UsageTracker();
         Scanner scanner = new Scanner(System.in);
 
         ArrayList<GolfClub> warehouseClubs = ClubWarehouseLoader.loadFromFile("clubwarehouse.txt");
-for (GolfClub club : warehouseClubs) {
-    manager.addClub(club);
-}
+        for (GolfClub club : warehouseClubs) {
+            manager.addClub(club);
+        }
 
         while (true) {
             System.out.println("\n=== Golf Club Organizer ===");
@@ -36,25 +36,25 @@ for (GolfClub club : warehouseClubs) {
                 }
                 case 5 -> tracker.printMostUsed();
                 case 6 -> {
-    System.out.print("Enter club name to search: ");
-    String searchName = scanner.nextLine();
-    GolfClub found = Utils.recursiveFind(manager.getClubs(), searchName, 0);
-    if (found != null) {
-        System.out.println("Found: " + found);
-    } else {
-        System.out.println("Club not found.");
-    }
-    case 7 -> {
-    System.out.print("Enter name of club to delete: ");
-    String name = scanner.nextLine();
-    boolean deleted = manager.deleteClubByName(name);
-    if (deleted) {
-        System.out.println("Club deleted: " + name);
-    } else {
-        System.out.println("Club not found.");
-    }
-}
-}
+                    System.out.print("Enter club name to search: ");
+                    String searchName = scanner.nextLine();
+                    GolfClub found = Utils.recursiveFind(manager.getClubs(), searchName, 0);
+                    if (found != null) {
+                        System.out.println("Found: " + found);
+                    } else {
+                        System.out.println("Club not found.");
+                    }
+                }
+                case 7 -> {
+                    System.out.print("Enter name of club to delete: ");
+                    String name = scanner.nextLine();
+                    boolean deleted = manager.deleteClubByName(name);
+                    if (deleted) {
+                        System.out.println("Club deleted: " + name);
+                    } else {
+                        System.out.println("Club not found.");
+                    }
+                }
                 case 0 -> {
                     System.out.println("Exiting...");
                     return;
@@ -64,32 +64,30 @@ for (GolfClub club : warehouseClubs) {
         }
     }
 
-    
     public static int readInt(Scanner scanner, String prompt) {
         while (true) {
             System.out.print(prompt);
             if (scanner.hasNextInt()) {
                 int value = scanner.nextInt();
-                scanner.nextLine(); 
+                scanner.nextLine(); // clear newline
                 return value;
             } else {
                 System.out.println("Invalid input. Please enter a number.");
-                scanner.nextLine(); 
+                scanner.nextLine(); // discard bad input
             }
         }
     }
-
 
     public static double readDouble(Scanner scanner, String prompt) {
         while (true) {
             System.out.print(prompt);
             if (scanner.hasNextDouble()) {
                 double value = scanner.nextDouble();
-                scanner.nextLine(); 
+                scanner.nextLine(); // clear newline
                 return value;
             } else {
                 System.out.println("Invalid input. Please enter a decimal number.");
-                scanner.nextLine(); 
+                scanner.nextLine(); // discard bad input
             }
         }
     }
